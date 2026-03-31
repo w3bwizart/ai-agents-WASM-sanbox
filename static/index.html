@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero-Trust WASM Sandbox</title>
+    <meta name="description" content="AI Agent secure code execution dashboard using WebAssembly">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="glow-bg"></div>
+    <main class="dashboard-container">
+        <header class="glass-header">
+            <div class="logo-area">
+                <div class="pulse-ring"></div>
+                <h1>Zero-Trust <span class="gradient-text">Sandbox</span></h1>
+            </div>
+            <button id="runBtn" class="primary-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                Deploy LLM Agent
+            </button>
+        </header>
+
+        <section class="console-panel glass-panel">
+            <div class="panel-header">
+                <h2>Lifecycle Trace</h2>
+                <div class="status-indicator">Idle</div>
+            </div>
+            <div class="terminal" id="terminal">
+                <div class="log-entry system"><span class="timestamp">[SYS]</span> Sandbox Ready. Awaiting deployment.</div>
+            </div>
+        </section>
+    </main>
+    <script src="/static/app.js"></script>
+</body>
+</html>

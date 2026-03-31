@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build output
+dist/
+build/
+out/
+pkg/
+target/
+
+# WASM build artifacts
+*.wasm.map
+*.d.ts
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+tmp/
+.tmp/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
