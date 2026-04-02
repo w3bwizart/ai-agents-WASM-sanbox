@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+atomic-agents
+litellm
+instructor
+python-dotenv

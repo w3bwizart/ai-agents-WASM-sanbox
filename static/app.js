@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 runBtn.disabled = false; // Free the UI
                 statusIndicator.textContent = 'Idle';
                 statusIndicator.className = 'status-indicator';
-                appendLog('system', 'Pipeline completed successfully.');
+                appendLog('system', data.message || 'Pipeline execution finished.');
             } else if (data.step === 'error') {
                 // Critical unhandled error layer
                 runBtn.disabled = false;

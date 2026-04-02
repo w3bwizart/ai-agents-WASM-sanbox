@@ -105,3 +105,5 @@ h1 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em; }
 .log-entry.sandbox { color: #34d399; } /* green */
 .log-entry.error { color: #f87171; font-weight: 600; }
 .log-entry.system { color: #94a3b8; }
+.log-entry.telemetry { color: #60a5fa; } /* blue */
+.log-entry.schema { color: #f472b6; } /* pink */
